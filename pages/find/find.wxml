@@ -1,0 +1,30 @@
+<!--pages/shopcar/shopcar.wxml-->
+<view class="find">
+  <view class="header">
+    <view class="item">
+     <navigator url="/pages/want/want" open-type="navigateTo">
+      <image src="../../image/find_left.png"></image>
+      <text>新品预约</text>
+     </navigator>
+    </view>
+    <view class="item">
+      <image src="../../image/find_center.png"></image>
+      <text>赢好礼</text>
+    </view>
+    <view class="item">
+    <navigator url="/pages/map/map" open-type="navigateTo">
+      <image src="../../image/find_right.png"></image>
+      <text>线下门店</text>
+       </navigator>
+    </view>
+  </view>
+  <view class="body">
+    <view class="box">
+      <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a6a15634619b5e477b0517a2857d597c.jpg?thumb=1&w=696&h=436"></image>
+      <view class="box-footer">
+        <view class="tag">抽奖</view>
+        <text>Redmi Note 8 Pro x 3</text>
+      </view>
+    </view>
+  </view>
+</view>

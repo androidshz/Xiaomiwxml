@@ -1,0 +1,63 @@
+/* pages/search/search.wxss */
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  padding: 14rpx 24rpx;
+}
+
+.logo image {
+  width: 50rpx;
+  height: 32rpx;
+}
+
+.ss {
+  width: 520rpx;
+  height: 54rpx;
+  font-size: 32rpx;
+  line-height: 54rpx;
+  border: 1px solid #e5e5e5;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 6rpx;
+}
+
+.ss image {
+  height: 40rpx;
+  width: 40rpx;
+}
+.my image {
+  height: 40rpx;
+  width: 40rpx;
+}
+.ss_img{
+  width: 750rpx;
+  height: 220rpx;
+}
+.box{
+  display: flex;
+  flex-wrap:wrap;
+}
+.box_1{
+  border: 2px solid #97C28A;
+  background-color: #E4F5E2;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  text-align: center;
+  margin: 10rpx;
+  padding: 0 20rpx;
+}
+
+.box_4{
+  border: 2px solid #FCA0A7;
+  background-color: #F9EAEA;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  text-align: center;
+  margin: 10rpx;
+  padding: 0 20rpx;
+}

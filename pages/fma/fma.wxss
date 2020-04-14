@@ -1,0 +1,44 @@
+/* pages/fma/fma.wxss */
+.header{
+  margin-top: 10rpx;
+  display: flex;
+  height: 80rpx;
+  background-color:#72C1B8
+}
+.header input{
+
+  border: 2rpx #E2F2F0 solid;
+  border-radius: 25rpx; 
+  margin-left: 15rpx;
+  margin-top: 16rpx;
+  text-align: center;
+  color: #E2F2F0;
+  background-color: white;
+  
+}
+.header text{
+  margin-top: 16rpx;
+  margin-left: 280rpx;
+  font-size: 35rpx;
+  color: #E2F2F0
+}
+.count{
+  margin-left: 230rpx;
+    margin-top: 60rpx;
+}
+
+.count image{
+  width: 300rpx;
+  height: 300rpx;
+}
+.text02{ 
+  margin-top: 50rpx; 
+margin-left: 50rpx;
+  border: 2rpx solid #72C1B8;
+  border-radius: 50rpx;
+  background-color: #72C1B8;
+  color: white;
+  width: 200rpx;
+  font-size: 30rpx;
+  text-align: center;
+}

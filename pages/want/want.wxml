@@ -1,0 +1,18 @@
+<!--pages/want/want.wxml-->
+<view class="big-box">
+  <view class="header">
+    <image src="../../image/want-head.png"></image>
+  </view>
+  <view class="small-box">
+    <view class="item">
+      <view class="left">
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ff174e016ef59e2d5e1bba6b9135399a.png?thumb=1&w=120&h=120"></image>
+      </view>
+      <view class="center">
+        <view class="top">Redmi Note 8 Pro</view>
+        <view class="bottom">6GB+128GB 冰翡翠</view>
+      </view>
+      <view class="right">登记</view>
+    </view>
+  </view>
+</view>

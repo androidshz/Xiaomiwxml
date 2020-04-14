@@ -1,0 +1,190 @@
+<!--pages/home/home.wxml-->
+<view class="body">
+  <view class="head">
+    <view class="logo">
+      <image src="../../img/logo.png"></image>
+    </view>
+    <navigator url="/pages/search/search" open-type="navigateTo">
+      <view class="ss">
+        <image src="../../img/ss.png"></image>搜索商品名称</view>
+    </navigator>
+    <view class="my">
+      <image src="../../img/my.png"></image>
+    </view>
+  </view>
+  <scroll-view scroll-x>
+    <view class="box1">
+      <view class="{{index==custom?'active':''}}" bindtap="onClick" wx:for="{{navList}}" wx:key="{{index}}" data-id="{{index}}">{{item}}</view>
+    </view>
+  </scroll-view>
+
+  <view wx:if="{{custom==0|custom==2}}">
+    <swiper autoplay="{{true}}" circular="{{true}}" indicator-dots="{{true}}">
+      <swiper-item>
+        <navigator url="/pages/page/page" open-type="navigateTo">
+          <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2943541eab405370f25a8c46ffcbe5ae.jpg?thumb=1&w=720&h=360"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/31492a02a6eb57c2c9b0e42f47528043.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca9a27369949735834eaf82bdafa353e.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+    </swiper>
+    <view class="box2">
+      <view wx:for="{{arr}}" wx:key="{{index}}">
+        <image src="{{item.url}}"></image>
+      </view>
+    </view>
+    <view class="box3">
+      <view class="box3_l">
+        <view>
+          <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c33053c2d6f56bb6f2fe70bcb0786e3c.jpg?thumb=1&w=358&h=508"></image>
+        </view>
+      </view>
+      <view class="box3_r">
+        <view>
+          <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4aea81c738383c9787b49c3d5e6a7ab0.jpg?thumb=1&w=358&h=252"></image>
+        </view>
+        <view>
+          <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3b828c82fb078b9282aa817f01da0621.jpg?thumb=1&w=358&h=252"></image>
+        </view>
+
+      </view>
+      <view class="box3_b">
+        <view>
+          <image src="//i8.mifile.cn/v1/a1/139eeb1a-95ac-d278-4b1e-e2fb05798908.webp"></image>
+        </view>
+        <view>
+          <image src="//i8.mifile.cn/v1/a1/1074a94c-0594-5ddd-7e53-2667d27e8e36.webp"></image>
+        </view>
+      </view>
+      <view>
+        <image class=".box3_datu" src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6c71c1c81edf64e2c13c137c2820805.jpg?thumb=1&w=720&h=280"></image>
+        <image class=".box3_datu1" src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/93646c36119c9e1f18263eb888c7ca22.jpg?thumb=1&w=720&h=440"></image>
+      </view>
+    </view>
+    <view>
+      <view class="box4">
+        <view class="box4_item" wx:for="{{phone}}" wx:key="{{index}}">
+          <image class=".box4_img" src="{{item.imgurl}}"></image>
+          <view class="price">{{item.price}}</view>
+          <view class="price0">{{item.price0}}</view>
+          <view>
+            <text class="price1">￥{{item.price1}}</text>
+            <text class="price2">￥{{item.price2}}</text>
+          </view>
+          <navigator url="/pages/page/page" open-type="navigateTo">
+            <view class="buybtn" bindtap="onClick1" data-id="{{index}}"> 立即购买</view>
+          </navigator>
+        </view>
+        <view class="genduo">更多小米手机产品></view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{custom==1|custom==4}}">
+    <swiper autoplay="{{true}}" circular="{{true}}" indicator-dots="{{true}}">
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2943541eab405370f25a8c46ffcbe5ae.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a8e9be06abf3d650af047bf3a4024df5.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/31492a02a6eb57c2c9b0e42f47528043.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+    </swiper>
+    <view class="page2">
+      <view>
+        <view class="shouji">
+          <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a6a15634619b5e477b0517a2857d597c.jpg?thumb=1&w=696&h=436"></image>
+        </view>
+        <view class="page2_box">
+          <view class="page2_text">
+            <text>Redmi Note 8 Pro</text>
+            <text class="text2">￥1399起</text>
+          </view>
+          <view class="page2_view0">
+            <view class="page2_view">6400万全场景四摄，专业游戏处理器 </view>
+            <navigator url="/pages/page/page" open-type="navigateTo">
+              <view class="buybtn">立即购买</view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="box4">
+        <view class="box4_item" wx:for="{{phone}}" wx:key="{{index}}">
+          <image class=".box4_img" src="{{item.imgurl}}"></image>
+          <view class="price">{{item.price}}</view>
+          <view class="price0">{{item.price0}}</view>
+          <view>
+            <text class="price1">￥{{item.price1}}</text>
+            <text class="price2">￥{{item.price2}}</text>
+          </view>
+          <navigator url="/pages/page/page" open-type="navigateTo">
+            <view class="buybtn"> 立即购买</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+
+
+
+  </view>
+  <view wx:if="{{custom==3}}">
+    <swiper autoplay="{{true}}" circular="{{true}}" indicator-dots="{{true}}">
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1bd3e75cf0151f70fd1ca07a48987175.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2361b43f71db28cf3f35ea27466d7979.jpg?thumb=1&w=720&h=360"></image>
+      </swiper-item>
+    </swiper>
+    <image class="ds_img" src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/374527b1abe806a1a84227a6ab995027.jpg?thumb=1&w=720&h=82"></image>
+    <view class="ds_box">
+      <view>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/afb00007d93777fb6d3bb9839505fed4.jpg?thumb=1&w=240&h=164"></image>
+      </view>
+      <view>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/afb00007d93777fb6d3bb9839505fed4.jpg?thumb=1&w=240&h=164"></image>
+      </view>
+      <view>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/afb00007d93777fb6d3bb9839505fed4.jpg?thumb=1&w=240&h=164"></image>
+      </view>
+      <view>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/afb00007d93777fb6d3bb9839505fed4.jpg?thumb=1&w=240&h=164"></image>
+      </view>
+      <view>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/afb00007d93777fb6d3bb9839505fed4.jpg?thumb=1&w=240&h=164"></image>
+      </view>
+      <view>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/afb00007d93777fb6d3bb9839505fed4.jpg?thumb=1&w=240&h=164"></image>
+      </view>
+    </view>
+    <image class="ds_img" src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/533e6d4b21b362eda723624e5ec7f114.jpg?thumb=1&w=720&h=74"></image>
+    <view class="page2">
+      <view>
+        <view class="shouji">
+          <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c3a5825484ae1d323fdfef2b87b16a85.jpg?thumb=1&w=688&h=367"></image>
+        </view>
+        <view class="page2_box">
+          <view class="page2_text">
+            <text>小米全面屏电视E55A</text>
+            <text class="text2">￥1799起</text>
+          </view>
+          <view class="page2_view0">
+            <view class="page2_view">全面屏设计，人工智能语音，内置小爱同学 </view>
+            <navigator url="/pages/page/page" open-type="navigateTo">
+              <view class="buybtn">立即购买</view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+</view>

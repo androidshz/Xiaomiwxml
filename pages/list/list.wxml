@@ -1,0 +1,10 @@
+<view class="page">
+
+<view class="image">
+<image src="/image/nolist.png"></image>
+</view>
+<view class="text">
+<view class="text01">你还没有在小程序里下过单</view>
+<view class="text02">前往商城逛逛</view>
+</view>
+</view>

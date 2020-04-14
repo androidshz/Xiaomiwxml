@@ -1,0 +1,13 @@
+<view class="page" >
+<view class="header">
+<image src="/image/logo.png"></image>
+<view class="text">
+<view>小米锅巴</view>
+<view>v1.0.0</view>
+</view>
+</view>
+<view class="content">
+<view class="content-text" wx:for="{{arr}}"   wx:key="{{index}}">{{item}}<view  wx:if="{{index!=6}}" class="bd-userData__border"></view></view>
+
+</view>
+</view>

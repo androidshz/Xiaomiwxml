@@ -1,0 +1,31 @@
+<!--pages/register/register.wxml-->
+<view class="register-wrap">
+  <view class="register-panel">
+    <view class="layout">
+      <view class="layout-icon">
+        <image src="/image/小米.png"></image>
+        <view class="layout-text">小米账号登录</view>
+      </view>
+      <view class="layout-content">
+        <input placeholder="请输入手机号" type="tel" class="inputtel" placeholder-class="ph" bindinput="onAccount" ></input>
+        <input class="inputpassword" type="password" placeholder="请输入密码" placeholder-class="ph"  bindinput="onPwd"></input>
+      <button class="yzm">获取验证码</button>
+      <button class="login" bindtap="onLogin">立即登录</button>
+     
+      </view>
+      <view class="login-icon">
+       <view class="login-logicon">
+       <image src="/image/微博.png"></image>
+       <image src="/image/新浪邮箱.png"></image>
+       <image src="/image/支付宝.png"></image>
+       </view>
+       <view class="login-log">
+       </view>
+       <view class="login-text">其他登陆方式</view>
+      </view>
+      <view class="login-bottom"> 
+      <text space="nbsp">简体  |  繁体  |  English  |  常见问题  |  隐私政策</text>
+      </view>
+    </view>
+  </view>
+</view>

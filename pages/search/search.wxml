@@ -1,0 +1,18 @@
+<!--pages/search/search.wxml-->
+<view class="head">
+    <view class="logo">
+      <image src="../../img/logo.png"></image>
+    </view>
+    <view class="ss">
+      <input placeholder="搜索商品名称" password="{{false}}"/></view>
+    <view class="my">
+      <image src="../../img/ss.png"></image>
+    </view>
+  </view>
+  <image class="ss_img" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/affdeaa6ddb441b104570b28208a5671.jpg?w=1080&h=300&bg=4B158D"></image>
+  <view class="box">
+  <view class="box_1">redmi note 8 </view>
+  <view class="box_1">redmi note 8 pro</view>
+  <view class="box_1">高品质多功能头戴耳机</view>
+  <view class="box_4">redmi note 7 pro</view>
+  </view>

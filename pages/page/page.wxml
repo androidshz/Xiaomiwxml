@@ -1,0 +1,84 @@
+<!--pages/page/page.wxml-->
+<swiper autoplay="{{true}}" circular="{{true}}">
+  <swiper-item indicator-dots="{{true}}">
+    <image src="{{bigimgurl}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/09a984b30f766506eda1471a37b611df.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4582cdfa732e2bfb5bb9bede10da7d16.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9977e24825a323e9a67311ab93436fe1.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="title">Redmi Note 8 Pro</view>
+<view class="introduce">
+  <text>「四摄小金刚火爆开售，+99元得游戏手柄套装」</text>6400万旗舰级全场景四摄 / 前置2000万 AI美颜相机 / G90T专业游戏芯片，液冷散热 / 6.53英寸水滴全面屏 / 4500mAh大电量 / 标配18W快充 / 康宁大猩猩保护玻璃 / 多功能NFC / 红外遥控功能 / Game Turbo2.0游戏加速</view>
+<view class="price">￥1799</view>
+<scroll-view scroll-x>
+  <view class="box0">
+    <view class="box" wx:for="{{arr}}" wx:key="{{index}}">
+      <view>
+        <image src="{{item.imgurl}}"></image>
+      </view>
+      <view class="word">{{item.word}}</view>
+      <view class="word1">{{item.word1}}</view>
+    </view>
+  </view>
+</scroll-view>
+<view class="border">
+  <view class="border_view">
+    <text>已选</text>Redmi Note 8 Pro 6GB+128GB 冰翡翠 x 1</view>
+  <view class="border_view">
+    <text>送至</text>北京市 东城区 有现货</view>
+  <view class="border_view1">
+    <image src="../../img/tubiao.png"></image>
+    <text>小米自营</text>
+    <image src="../../img/tubiao.png"></image>
+    <text>小米发货</text>
+    <image src="../../img/tubiao.png"></image>
+    <text>7天无理由退货</text>
+  </view>
+</view>
+<view class="border">
+  <view class="border_text">
+    <text>相关推荐</text>
+  </view>
+  <scroll-view scroll-x>
+    <view class="box1">
+      <view class="box2" wx:for="{{related}}" wx:key="{{index}}">
+        <view>
+          <image src="{{item.imgurl}}"></image>
+        </view>
+        <view class="word2">{{item.word}}</view>
+        <view class="word3">￥{{item.word1}}</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<view class="xf">
+  <view class="xf_box1">
+    <view>
+      <image src="../../img/shouye.png"></image>
+    </view>
+    <view class="word">首页</view>
+  </view>
+  <navigator url="/pages/shopcart/shopcart" open-type="navigateTo">
+    <view class="xf_box1">
+      <view>
+        <image src="../../img/icon_shopcart.png"></image>
+      </view>
+      <view class="word">购物车</view>
+    </view>
+  </navigator>
+  <navigator url="/pages/shopcart/shopcart" open-type="navigateTo">
+    <view class="buybtn">加入购物车</view>
+  </navigator>
+</view>
+<view class="img">
+  <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ac69c88873219673a1bd04346d22674d.jpg?f=webp&w=1080&h=1750&bg=0"></image>
+  <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/aa3860eb27a9e6840f75dbd87389ab56.jpg?f=webp&w=1080&h=1666&bg=20202"></image>
+  <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cc0c560747f7168dc9e9514ae8b894bf.jpg?f=webp&w=1080&h=1895&bg=203"></image>
+</view>

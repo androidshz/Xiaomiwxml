@@ -1,0 +1,100 @@
+/* pages/register/register.wxss */
+.layout{
+  height: 100%;
+}
+.layout-icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.layout-icon image {
+  width: 120rpx;
+  height: 100rpx;
+  padding-left: 320rpx;
+}
+
+.layout-text {
+  color: #FF6700;
+  font-size: 1rem;
+}
+
+.layout-content {
+  text-align: center;
+}
+
+.inputtel, .inputpassword {
+  border: 2rpx solid #B7E2E0;
+  border-radius: 40rpx;
+  height: 80rpx;
+  margin: 30rpx;
+}
+
+.input {
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  height: 80rpx;
+}
+
+.ph {
+  color: gainsboro;
+  font-size: 0.875em;
+}
+
+.yzm {
+  background-color: white;
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 0.875em;
+  line-height: 50rpx;
+  margin-left: 500rpx;
+}
+
+.login {
+  width: 400rpx;
+  height: 100rpx;
+  margin-top: 40rpx;
+ margin-left:  175rpx;
+  background-color: #B7E2E0;
+  color: white;
+  line-height: 100rpx;
+  border-radius: 40rpx;
+}
+.login-icon{
+   margin-top: 180rpx;
+}
+.login-text{
+  background-color: white;
+  font-size: 25rpx;
+  color: rgba(219, 219, 219, 0.9);
+  margin-left: 300rpx;
+  padding-top: 0rpx;
+ 
+}
+.login-log {
+margin-left: 15%;
+  background-color: gainsboro;
+  height: 2rpx;
+  width: 70%;
+  text-align: center;
+}
+.login-logicon image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.login-logicon{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20rpx;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.login-bottom{
+  margin-top: 150rpx;
+margin-left: 35rpx;
+
+}
+.login-bottom text{
+   color:#838383;
+
+}

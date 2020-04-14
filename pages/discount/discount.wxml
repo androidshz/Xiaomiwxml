@@ -1,0 +1,18 @@
+<scroll-view scroll-x>
+  <!-- 设置垂直滚动必须要设置scorrol-view的高度 -->
+    <view class="box">
+      <view class="{{index==custom?'active':''}}" wx:for="{{arrlist}}"   wx:key="{{index}}" bindtap="onClick"   data-id="{{index}}" >{{item}}</view>
+    </view>
+</scroll-view>
+<view class="body" wx:if="{{custom==0}}">
+<view>
+<image src="/image/nodiscount.png"></image>
+<view class="text">还没有优惠券哦</view>
+</view>
+</view>
+<view class="body01" wx:if="{{custom==1}}">
+<view>
+<image src="/image/nodiscount01.png"></image>
+<view class="text">你没有已使用过的优惠券</view>
+</view>
+</view>

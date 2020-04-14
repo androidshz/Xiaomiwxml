@@ -1,0 +1,58 @@
+/* pages/shopcar/shopcar.wxss */
+.find{
+  background-color: #E9E3CD;
+  height: 1000rpx;
+}
+.header{
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  height: 150rpx;
+  padding-top: 30rpx;
+}
+.item{
+  text-align: center;
+  width: 33.33333333%;
+  padding: 14rpx 0;
+}
+.item image{
+  margin: 0 auto 20rpx;
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+}
+.item text{
+  color: #666;
+}
+.body{
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+.box{
+  width: 96%;
+  height: 480rpx;
+  margin: 16rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+.box image{
+  width: 100%;
+  height: 360rpx;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+.box-footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 26rpx 0;
+}
+.tag{
+  font-size: 24rpx;
+  border: 2rpx solid #FF6700;
+  padding: 2rpx 10rpx;
+  border-radius: 6rpx;
+  background-color: #FF6700;
+  margin-right: 20rpx;
+}

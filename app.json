@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/want/want",
+    "pages/shopcart/shopcart",
+    "pages/search/search",
+    "pages/map/map",
+    "pages/fenlei/fenlei",
+    "pages/find/find",
+    "pages/my/my",
+    "pages/page/page",
+    "pages/design/design",
+    "pages/discount/discount",
+    "pages/fma/fma",
+    "pages/list/list",
+    "pages/shopmarket/shopmarket"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F2F2F2",
+    "navigationBarTitleText": "我的小店",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#FF4611",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/home00.png",
+        "selectedIconPath": "image/home01.png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath": "image/fenlei00.png",
+        "selectedIconPath": "image/fenlei01.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "image/find00.png",
+        "selectedIconPath": "image/find01.png"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车",
+        "iconPath": "image/shopcar00.png",
+        "selectedIconPath": "image/shopcar01.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my00.png",
+        "selectedIconPath": "image/my01.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

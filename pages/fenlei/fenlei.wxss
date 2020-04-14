@@ -1,0 +1,86 @@
+/* pages/fenlei/fenlei.wxss */
+.list-navbar{
+  display: flex;
+  position: relative;
+}
+.left{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160rpx;
+  background-color: #FEFEFE;
+  text-align: center;
+}
+.left view{
+  padding: 20rpx 20rpx;
+  font-size: 26rpx;
+  border-right: 3rpx solid #F2F2F2;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+.active{
+  color: rgb(237, 91, 0);
+  font-size: 40rpx;
+}
+.right{
+  position: absolute;
+  top: 0;
+  left: 160rpx;
+  width: 560rpx;
+  background-color: #FEFEFE;
+}
+.image{
+  text-align: right;
+}
+.image image{
+  height: 208rpx;
+  width: 521rpx;
+}
+.img{
+  text-align: right;
+}
+.img image{
+  height: 82rpx;
+  width: 521rpx;
+}
+.title{
+  height: 133rpx;
+  width: 525rpx;
+  font-size: 32rpx;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 8rpx;
+  line-height: 133rpx;
+  overflow: hidden;
+}
+.title text{
+  position: relative;
+}
+.box{
+  width: 100%;
+  overflow: hidden;
+}
+.item{
+  width: 33.3333333%;
+  float: left;
+  text-align: center;
+  margin-top: 6rpx;
+  margin-bottom: 9rpx;
+  overflow: hidden;
+}
+.item image{
+  width: 104rpx;
+  height: 104rpx;
+  margin: 0 auto;
+}
+.text{
+  width: 175rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 20rpx;
+}
+

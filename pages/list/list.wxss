@@ -1,0 +1,33 @@
+.page{
+  background-color: #107A6D;
+  height: 1206rpx;
+ 
+}
+.image{
+    text-align: center;
+    padding-top: 250rpx;
+}
+.image image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+
+}
+.text01{
+  padding-top: 20rpx;
+  color: white;
+  text-align: center;
+  
+}
+.text02{ 
+  margin-top: 50rpx; 
+margin-left: 280rpx;
+  border: 2rpx solid white;
+  border-radius: 50rpx;
+  background-color: white;
+  color: #107A6D;
+  width: 200rpx;
+}

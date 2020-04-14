@@ -1,0 +1,29 @@
+/* pages/discount/discount.wxss */
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box view {
+  padding: 20rpx 0;
+  flex-shrink: 0;
+  margin: 0 30rpx;
+}
+
+.active {
+  color: rgb(237, 91, 0);
+  border-bottom: 4rpx solid rgb(237, 91, 0);
+}
+
+image {
+  width: 300rpx;
+  height: 300rpx;
+  margin-left: 250rpx;
+  margin-top: 50rpx;
+}
+
+.text {
+  text-align: center;
+  margin-top: 30rpx;
+}

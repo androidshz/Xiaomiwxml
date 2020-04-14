@@ -1,0 +1,43 @@
+<!-- miniprogram/pages/user/user.wxml -->
+<view class="container">
+  <view class="header">
+    <view class="hd-img">
+      <image src="/image/logo.png" />
+    </view>
+    <view class="hd-detail">
+      <view class="name">
+        <text>sheismyflint</text>
+      </view>
+      <view class="account">
+        <navigator url="/pages/register/register">绑定小米账号</navigator>
+      </view>
+    </view>
+    <view class="hd-code">
+      <image src="/image/ewm.png" />
+    </view>
+  </view>
+  <view class="body">
+    <navigator url="{{item.url}}" class="bd-goods" wx:for="{{goods}}" wx:key="{{index}}">
+        <image src="{{item.img}}"></image>
+        <view class="goods-text">{{item.text}}</view>
+    </navigator>
+    <view class="bd-userData" >
+      <navigator  url="{{item.url}}" class="box" wx:for="{{result}}" wx:key src="{{index}}" bindtap="picChange" >
+        <image src="{{item.img}}"></image>
+        <view class="box-text">{{item.text}}</view>
+        <view  wx:if="{{index!=0}}" class="bd-userData__border"></view>
+      </navigator>
+      
+    </view>
+    <view class="setUp" >
+        
+        <navigator url="{{item.url}}" class="bd-setUp" wx:for="{{setUp}}" wx:key="index">
+        <image src="{{item.img}}"></image>
+        <view class="set-text">{{item.text}}</view>
+        </navigator>
+           <view class="blank"></view>
+    </view>
+ 
+  </view>
+</view>
+<tabbar on="user"></tabbar>

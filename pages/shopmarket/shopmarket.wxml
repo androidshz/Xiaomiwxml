@@ -1,0 +1,27 @@
+<!--pages/shopmarket/shopmarket.wxml-->
+<view class="page-wrapper">
+  <view class="wrapper-top">
+    <text>登录可同步电脑与手机购物车</text>
+    <navigator class="wrapper-top-text" url="/pages/register/register">登陆></navigator>
+  </view>
+  <view class="wrapper-head">
+    <image src="/image/空购物车 .png"></image>
+    <text>购物车还是空的！</text>
+    <navigator class="wrapper-botton" url="/pages/home/home">去逛逛</navigator> 
+  </view>
+  <view class="wrapper-scorral">
+    <image src="//i8.mifile.cn/b2c-mimall-media/e95ade2750a7fde92369b416c7d3176d.jpg"></image>
+  </view>
+  <view class="scorral-image">
+    <view class="scorral-content" wx:for="{{arr}}" wx:key="{{index}}"> 
+    <image src="{{item.scorralimgurl}}"></image>
+    <view class="scorral-text">{{item.scorraltext}}</view>
+    <view class="scorral-price">{{item.scorralprice}}</view>
+    </view>
+
+
+
+  </view>
+
+
+</view>

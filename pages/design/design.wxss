@@ -1,0 +1,40 @@
+/* pages/design/design.wxss */
+.page{
+  height: 1206rpx;
+  background-color: #D2D9D9;
+}
+.header{
+  text-align: center;
+ padding-top: 60rpx;
+}
+.content-text{
+ padding-bottom: 20rpx;
+ padding-top: 20rpx;
+}
+image{
+  width: 200rpx;
+  height: 200rpx; 
+}
+.text{
+  font-size: 20rpx;
+  color: #545656;
+}
+.content{
+padding-left: 250rpx;
+margin-top: 30rpx;
+background-color: white;
+  height: 830rpx;
+}
+.content-text{
+  font-size: 33rpx;
+  color: #4a4a4a;
+}
+.bd-userData__border::after {
+  content: '';
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  height: 1px;
+  border-bottom: 1px solid #ebebeb;
+  padding-top: 20rpx;
+}

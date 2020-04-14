@@ -1,0 +1,10 @@
+<view>
+  <view class="header">
+  <input placeholder="输入F码兑换并使用"></input>
+  <text>兑换</text>
+  </view>
+  <view class="count">
+  <image src="/image/jt.png"></image>
+  <navigator url="/pages/home/home" class="text02">前往商城逛逛</navigator>
+  </view>
+</view>
